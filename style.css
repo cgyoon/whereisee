@@ -1,106 +1,97 @@
-* {
-	word-break: keep-all;
-}
-
-.deh{
-	background: linear-gradient(lightblue, khaki);
-	padding: 5px;
+header {
+	background: black;
+	border-radius: 100px;
 	text-align: center;
-	border-radius: 20px;
 }
 
-article {
-	background-color: lightgoldenrodyellow;
-	flex-direction: row;
-	display: flex;
-	flex-wrap: wrap;
-	
-}
-
-
-section {
-	border: 5px double navy;
-	margin-bottom: 20px;
-	border-radius: 20px;
-	width: 20vw;
-	padding: 10px;
-	
-}
-
-h3 {
-	background-color: lightgrey;
+.one {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	background-color: indianred;
+	width: 200px;
+	height: 50px;
+	border-radius: 100px;
+	background: radial-gradient(yellow,pink);
+	letter-spacing: 3px;
 	text-align: center;
-	font-size: 30px;
+}
+
+.two {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	background-color: lightgreen;
+	width: 200px;
+	height: 50px;
+	border-radius: 100px;
+	background: radial-gradient(pink,lightskyblue);
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+h1 {
+	background-color: lightcoral;
+	text-align: center;
+	font-size: 5vw;
+	border-radius: 100px;
 }
 
 h2 {
-	background-color: mediumpurple;
+	background-color: white;
+	border: 2px orangered;
 	text-align: center;
-	font-size: 40px;
+	border-radius: 100px;
 }
 
-h1{
-	font-size: 40px;
+section {
+	border: 2px solid mistyrose;
+	width: 600px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 1.5px;
+	word-break: keep-all;
+	background: radial-gradient(pink,white);
+	margin: 50px;
+	border-radius: 100px;
 }
 
 p {
-	line-height: 2;
-	font-size: 25px;
+	background-color: pink;
+	width: 600px;
+	height: 150px;
 }
 
-.inheader {
-	background: linear-gradient(black, white);
-	padding: 5px;
-	text-align: center;
-	border-radius: 20px;
-}
-
-.me {
-	box-shadow: 20px 20px 20px 7px black;
-	text-align: center;
-	font-size: 30px;
-	background-color: lightgrey;
-	position: absolute;
-	width: 400px;
-	height: 100px;
+.a1 {
+	background: radial-gradient(lightgreen,white);
 	border-radius: 100px;
-	top: 300px;
-	left: 500px;
-
 }
 
-.meh {
-	background: linear-gradient(mediumpurple, khaki);
-	padding: 5px;
-	text-align: center;
-	border-radius: 20px;
-}
-
-.design {
-	box-shadow: 20px 20px 20px 7px black;
-	text-align: center;
-	font-size: 30px;
-	background-color: lightgrey;
-	position: absolute;
-	width: 400px;
-	height: 100px;
+.b1{
+	background: radial-gradient(lightgreen,white);
 	border-radius: 100px;
-	top: 300px;
-	left: 1300px;
 }
 
-.inbody{
-	background-color: grey;
+.c1 {
+	background: radial-gradient(lightgreen,white);
 }
 
-.den1 {
-	background-color: lightblue;
+.d1 {
+	background-color: greenyellow;
 	text-align: center;
-	font-size: 40px;
+	border-radius: 100px;
 }
 
-.den2{
-	background-color: lightblue;
+.e1 {
+	background: radial-gradient(lightcoral,white) ;
+	border-radius: 100px;
+}
+
+footer {
 	text-align: center;
-	font-size: 40px;
 }
